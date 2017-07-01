@@ -78,7 +78,7 @@ public class AnyPanel extends Panel implements ModalPanel {
 
     private final Triple<UserFormLayoutInfo, GroupFormLayoutInfo, Map<String, AnyObjectFormLayoutInfo>> formLayoutInfo;
 
-    private final PageReference pageRef;
+    protected final PageReference pageRef;
 
     private AbstractSearchPanel searchPanel;
 
